@@ -229,6 +229,7 @@ Model2 <- lm(Gas ~ Temp, data = whiteside, subset = which(Insul == "After"))
 # Representamos las rectas correspondientes a cada modelo lineal
 abline(Model1, lty=2)
 abline(Model2)
+#
 ```
 
 ```{r,echo=T,include=T,eval=F}
